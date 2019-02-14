@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "noEmit": true,
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "strict": true,
+        "module": "commonjs",
+        "target": "es5",
+				"noUnusedLocals": true,
+				"noUnusedParameters": true,
+				"lib": [
+					"es2017",
+					"dom"
+				]
+    },
+    "include": [
+        "src/*"
+    ],
+		"exclude": [
+		]
+}
